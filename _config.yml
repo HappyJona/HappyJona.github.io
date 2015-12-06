@@ -42,7 +42,7 @@ timezone:      null
 title: HappyBlog
 description: Happy is happy
 keywords: Java,小说
-url: http://www.happy2sunflower.xyz
+url: http://localhost:4000
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
@@ -50,12 +50,12 @@ favicon: /images/shortcut.jpg
 nav:
   - text: 首页
     url: /index.html
-  - text: 分类目录 
-    url: /categories.html
-  - text: 文章归档
-    url: /archives.html
-  - text: 联系我
-    url: /contact.html
+  - text: 自说自话 
+    url: /opinions.html
+  - text: 学习笔记
+    url: /notes.html
+  - text: 白日梦-小说
+    url: /novels.html
   - text: 友情链接
     url: /links.html
 
@@ -103,3 +103,12 @@ customLinks:
       url: http://jquery.com/
     message: 其他相关链接
 
+#comment plugins
+duoshuo:
+  config: true
+  id: xyzhappy
+
+ #baidu share config
+baiduShare:
+  config: true
+  
