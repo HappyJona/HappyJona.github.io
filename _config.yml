@@ -42,7 +42,7 @@ timezone:      null
 title: HappyBlog
 description: Happy is happy
 keywords: Java,小说
-url: http://localhost:4000
+url: http://www.happy2sunflower.xyz
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
